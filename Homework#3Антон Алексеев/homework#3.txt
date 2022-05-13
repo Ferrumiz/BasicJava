@@ -1,0 +1,5 @@
+0. Copy HomeWork3*.java into your project under `src` folder
+1. Implement all required methods in the classes (see all TODOs)
+    * you can add additional System.out.println() to add more examples to check your implementation
+    * proposed order of tasks: HomeWork3Even, HomeWork3LeapYear, HomeWork3Fibonacci, HomeWork3PrimeNumber
+2. Send resulting .java files to maksim.baishev+telran@gmail.com

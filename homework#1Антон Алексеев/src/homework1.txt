@@ -1,0 +1,11 @@
+Task#1
+1. Create a new java class with favorite animal name
+2. Print to System.out how it would "speak"
+
+Task#2
+Fix compilation error in Main.java
+
+Task#3 Optional
+Make Style.java in accordance with google style guide without using Intellij IDEA
+
+Send the results to maksim.baishev+telran@gmail.com
