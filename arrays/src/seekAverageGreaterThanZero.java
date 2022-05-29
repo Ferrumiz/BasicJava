@@ -1,6 +1,12 @@
-/* Implement the method that takes int[][] array and row index and
-checks if the average of the elements in the row is greater than 0 */
+/*
+Conditions:
+Implement the method that takes int[][] array and row index and
+checks if the average of the elements in the row is greater than 0
 
+Ход задачи:
+сложить все числа массива
+поделить сумму на количество элементов массива
+ */
 public class seekAverageGreaterThanZero {
     public static void main(String[] args) {
         int[][] arr = {{-7, 2, -8, 4, 6,3,9}, {-7, 0, 8, -9, -1, 5,7}};
@@ -21,6 +27,3 @@ public class seekAverageGreaterThanZero {
         }
     }
 }
-/*сложить все числа массива
-поделить сумму на количество элементов массива
- */
