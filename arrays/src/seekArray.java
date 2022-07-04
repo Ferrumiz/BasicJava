@@ -9,14 +9,17 @@
     напечатать сумму единиц, соответствующих заданному значению
      */
 
-public class seekArray {
+/*public class seekArray {
     public static void main(String[] args) {
-        int[] num = {10, 3, 23, 5, -9, 1, 3, -7};
-        int a = 0;
-        for (int i = 0; i < num.length; i++)
-            if (num[i] == 2) {
-                a = a + 1;
-            }
-        System.out.println(a);
+         findAndCount(int[] num = {10, 3, 23, 5, -9, 1, 3, -7});
     }
-}
+    public static int[] findAndCount(int[] num){
+            int a = 0;
+            for (int i = 0; i < num.length; i++)
+                if (num[i] == 2) {
+                    a = a + 1;
+                }
+            System.out.println(a);
+        }
+    }
+*/
