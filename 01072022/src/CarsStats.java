@@ -1,55 +1,56 @@
 public class CarsStats {
     public static void main(String[] args) {
 
-        Car Bus = new Car();
-        Bus.name = "Bus";
-        Bus.speed = 100;
-        Bus.weight = 8000;
-        Bus.passengers = 30;
-        Bus.consumption = 25;
+        Car Bus = new Car("Bus", 100, 16000, 30, 30);
+        String busName = Bus.getName();
+        int busSpeed = Bus.getSpeed();
+        int busWeight = Bus.getWeight();
+        int busPassengers = Bus.getPassengers();
+        int busConsumption = Bus.getConsumption();
 
-        Car RockerCar = new Car();
-        RockerCar.name = "RockerCar";
-        RockerCar.speed = 150;
-        RockerCar.weight = 3000;
-        RockerCar.passengers = 8;
-        RockerCar.consumption = 18;
+        Car Rockercar = new Car("Rockercar", 150, 3000, 8, 18);
+        String rockercarName = Rockercar.getName();
+        int rockercarSpeed = Rockercar.getSpeed();
+        int rockercarWeight = Rockercar.getWeight();
+        int rockercarPassengers = Rockercar.getPassengers();
+        int rockercarConsumption = Rockercar.getConsumption();
 
-        Car SportCar = new Car();
-        SportCar.name = "SportCar";
-        SportCar.speed = 300;
-        SportCar.weight = 950;
-        SportCar.passengers = 2;
-        SportCar.consumption = 20;
+        Car Sportcar = new Car("Sportcar", 300, 900, 2, 20);
+        String sportcarName = Sportcar.getName();
+        int sportcarSpeed = Sportcar.getSpeed();
+        int sportcarWeight = Sportcar.getWeight();
+        int sportcarPassengers = Sportcar.getPassengers();
+        int sportcarConsumption = Sportcar.getConsumption();
+        Sportcar.setSpeed(-100);
 
-        Car HoverCar = new Car();
-        HoverCar.name = "HoverCar";
-        HoverCar.speed = 800;
-        HoverCar.weight = 500;
-        HoverCar.passengers = 2;
-        HoverCar.consumption = 23;
+        Car Hovercar = new Car("Hovercar", 800, 600, 4, 25);
+        String hovercarName = Hovercar.getName();
+        int hovercarSpeed = Hovercar.getSpeed();
+        int hovercarWeight = Hovercar.getWeight();
+        int hovercarPassengers = Hovercar.getPassengers();
+        int hovercarConsumption = Hovercar.getConsumption();
 
-        Car SpaceTruck = new Car();
-        SpaceTruck.name = "SpaceTruck";
-        SpaceTruck.speed = 100000;
-        SpaceTruck.weight = 80000;
-        SpaceTruck.passengers = 8;
-        SpaceTruck.consumption = 1200;
+        Car Spacetruck = new Car("Spacetruck", 120000, 800000, 8, 1);
+        String spacetruckName = Spacetruck.getName();
+        int spacetruckSpeed = Spacetruck.getSpeed();
+        int spacetruckWeight = Spacetruck.getWeight();
+        int spacetruckPassengers = Spacetruck.getPassengers();
+        int spacetruckConsumption = Spacetruck.getConsumption();
 
-        Car[] ListOfCars = {RockerCar, SportCar, HoverCar, SpaceTruck, Bus};
+        Car[] ListOfCars = {Rockercar, Sportcar, Hovercar, Spacetruck, Bus};
 
         for (Car num : ListOfCars) {
-            System.out.print(num.name + "'s specs:");
-            System.out.println(   );
-            System.out.print(" speed:       " + num.speed + " km/h");
-            System.out.println(   );
-            System.out.print(" weight:      " + num.weight + " kgs.");
-            System.out.println(   );
-            System.out.print(" passengers:  " + num.passengers + " pers.");
-            System.out.println(   );
-            System.out.print(" consumption: " + num.consumption + " l/100 km.");
-            System.out.println(   );
-            System.out.println(   );
+            System.out.print(num.getName() + "'s specs:");
+            System.out.println();
+            System.out.print(" speed:       " + num.getSpeed() + " km/h");
+            System.out.println();
+            System.out.print(" weight:      " + num.getWeight() + " kgs.");
+            System.out.println();
+            System.out.print(" passengers:  " + num.getPassengers() + " pers.");
+            System.out.println();
+            System.out.print(" consumption: " + num.getConsumption() + " l/100 km.");
+            System.out.println();
+            System.out.println();
         }
 
         }

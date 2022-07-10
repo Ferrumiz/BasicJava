@@ -16,9 +16,5 @@ public class app {
             System.out.print(sum);
         }
         */
-
-
-
-
     }
 }
