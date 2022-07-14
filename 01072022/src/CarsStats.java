@@ -1,44 +1,45 @@
 public class CarsStats {
     public static void main(String[] args) {
 
+        //3.Создать в классе Car так называемый “конструктор копирования” и создать еще два дополнительных
+        //объекта используя этот конструктор на основании уже созданных объектов. Добавить их в массив.
+
+        //Задаю параметры для экземпляра oldCar:
+        Car oldCar = new Car("Oldcar", 90, 1500, 4, 17);
+        //Создаю экземпляры на основе конструктора "oldCar":
+        Car newCar = new Car(oldCar);
+        newCar.setName("New Car");
+        newCar.setSpeed(10);
+        newCar.setConsumption(12);
+        newCar.setPassengers(5);
+
+        Car JCB= new Builder("JCB",1,1,1, 1);
+
+        Car newestCar = new Car(oldCar);
+        newestCar.setName("Newest Car");
+        newestCar.setConsumption(8);
+        newestCar.setSpeed(150);
+        newestCar.setWeight(2000);
+
+        //Пытаюсь сделать печатающий метод:
+        //System.out.println(printResult());
+
+        //Задаю параметры для остальных экземпляров:
         Car Bus = new Car("Bus", 100, 16000, 30, 30);
-        String busName = Bus.getName();
-        int busSpeed = Bus.getSpeed();
-        int busWeight = Bus.getWeight();
-        int busPassengers = Bus.getPassengers();
-        int busConsumption = Bus.getConsumption();
 
         Car Rockercar = new Car("Rockercar", 150, 3000, 8, 18);
-        String rockercarName = Rockercar.getName();
-        int rockercarSpeed = Rockercar.getSpeed();
-        int rockercarWeight = Rockercar.getWeight();
-        int rockercarPassengers = Rockercar.getPassengers();
-        int rockercarConsumption = Rockercar.getConsumption();
 
         Car Sportcar = new Car("Sportcar", 300, 900, 2, 20);
-        String sportcarName = Sportcar.getName();
-        int sportcarSpeed = Sportcar.getSpeed();
-        int sportcarWeight = Sportcar.getWeight();
-        int sportcarPassengers = Sportcar.getPassengers();
-        int sportcarConsumption = Sportcar.getConsumption();
-        Sportcar.setSpeed(-100);
 
         Car Hovercar = new Car("Hovercar", 800, 600, 4, 25);
-        String hovercarName = Hovercar.getName();
-        int hovercarSpeed = Hovercar.getSpeed();
-        int hovercarWeight = Hovercar.getWeight();
-        int hovercarPassengers = Hovercar.getPassengers();
-        int hovercarConsumption = Hovercar.getConsumption();
 
         Car Spacetruck = new Car("Spacetruck", 120000, 800000, 8, 1);
-        String spacetruckName = Spacetruck.getName();
-        int spacetruckSpeed = Spacetruck.getSpeed();
-        int spacetruckWeight = Spacetruck.getWeight();
-        int spacetruckPassengers = Spacetruck.getPassengers();
-        int spacetruckConsumption = Spacetruck.getConsumption();
 
-        Car[] ListOfCars = {Rockercar, Sportcar, Hovercar, Spacetruck, Bus};
+        //Создаю массив объектов типа Car:
+        Car[] ListOfCars = {Rockercar, Sportcar, Hovercar, Spacetruck, Bus, oldCar, newCar, newestCar, JCB};
 
+        //Пытаюсь сделать метод для вывода элементов массива:
+        //public static String printResult (Car ListOfCars[]) {
         for (Car num : ListOfCars) {
             System.out.print(num.getName() + "'s specs:");
             System.out.println();
@@ -52,7 +53,7 @@ public class CarsStats {
             System.out.println();
             System.out.println();
         }
-
         }
     }
+
 
