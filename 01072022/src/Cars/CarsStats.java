@@ -1,6 +1,7 @@
+package Cars;
+
 public class CarsStats {
     public static void main(String[] args) {
-
         //3.Создать в классе Car так называемый “конструктор копирования” и создать еще два дополнительных
         //объекта используя этот конструктор на основании уже созданных объектов. Добавить их в массив.
 
@@ -8,21 +9,12 @@ public class CarsStats {
         Car oldCar = new Car("Oldcar", 90, 1500, 4, 17);
         //Создаю экземпляры на основе конструктора "oldCar":
         Car newCar = new Car(oldCar);
-        newCar.setName("New Car");
-        newCar.setSpeed(10);
-        newCar.setConsumption(12);
-        newCar.setPassengers(5);
-
-        Car JCB= new Builder("JCB",1,1,1, 1);
 
         Car newestCar = new Car(oldCar);
-        newestCar.setName("Newest Car");
-        newestCar.setConsumption(8);
-        newestCar.setSpeed(150);
-        newestCar.setWeight(2000);
 
-        //Пытаюсь сделать печатающий метод:
-        //System.out.println(printResult());
+        Car JCB = new Builder("JCB","Hammer, Drill, Saw", 1, 1, 1, 1);
+
+        Car Caravelle = new Transporter("Caravelle", 1,1,1,1);
 
         //Задаю параметры для остальных экземпляров:
         Car Bus = new Car("Bus", 100, 16000, 30, 30);
@@ -36,11 +28,19 @@ public class CarsStats {
         Car Spacetruck = new Car("Spacetruck", 120000, 800000, 8, 1);
 
         //Создаю массив объектов типа Car:
-        Car[] ListOfCars = {Rockercar, Sportcar, Hovercar, Spacetruck, Bus, oldCar, newCar, newestCar, JCB};
+        Car[] listOfCars = {Rockercar, Sportcar, Hovercar, Spacetruck, Bus, oldCar, newCar, newestCar};
+        //Создаю печатающий метод:
+        //printCars(listOfCars);
 
-        //Пытаюсь сделать метод для вывода элементов массива:
-        //public static String printResult (Car ListOfCars[]) {
-        for (Car num : ListOfCars) {
+        System.out.println(JCB.toString());
+        System.out.println(JCB.carSet(JCB.getName()));
+        System.out.println(Caravelle.toString());
+        System.out.println(Caravelle.carSet(Caravelle.getName()));
+
+    }
+
+    /*public static void printCars(Car[] listOfCars) {
+        for (Car num : listOfCars) {
             System.out.print(num.getName() + "'s specs:");
             System.out.println();
             System.out.print(" speed:       " + num.getSpeed() + " km/h");
@@ -53,7 +53,6 @@ public class CarsStats {
             System.out.println();
             System.out.println();
         }
-        }
-    }
-
+    }*/
+}
 

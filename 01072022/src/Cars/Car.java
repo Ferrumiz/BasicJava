@@ -1,6 +1,10 @@
+package Cars;
+
 public class Car {
     private String name;
-    private int speed, weight, passengers;
+    private int speed;
+    private int weight;
+    private int passengers;
     private int consumption;
 
     //3.Создать в классе Car так называемый “конструктор копирования” и создать еще два дополнительных
@@ -77,4 +81,7 @@ public class Car {
         }
     }
 
+    public String carSet(String name) {
+        return this.name + " goes with common accessories";
+    }
 }
