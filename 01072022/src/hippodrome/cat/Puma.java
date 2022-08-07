@@ -1,6 +1,8 @@
-package ippodrome;
+package hippodrome.cat;
 
-public class Puma extends Cat implements Raceable{
+import hippodrome.Raceable;
+
+public class Puma extends Cat implements Raceable {
 
     @Override
     public void setPosition(int pumaPosition) {
@@ -8,8 +10,9 @@ public class Puma extends Cat implements Raceable{
     }
 
     @Override
-    public void step() {
+    public double step() {
 
+        return 0;
     }
 
     @Override
@@ -19,6 +22,6 @@ public class Puma extends Cat implements Raceable{
 
     @Override
     public void printInformation() {
-
+        System.out.println("Puma won");
     }
 }

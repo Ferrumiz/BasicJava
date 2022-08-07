@@ -1,4 +1,6 @@
-package ippodrome;
+package hippodrome.horses;
+
+import hippodrome.Raceable;
 
 public class WingedHorse extends Horse implements Raceable {
 
@@ -8,8 +10,9 @@ public class WingedHorse extends Horse implements Raceable {
     }
 
     @Override
-    public void step() {
+    public double step() {
 
+        return 0;
     }
 
     @Override
@@ -19,6 +22,6 @@ public class WingedHorse extends Horse implements Raceable {
 
     @Override
     public void printInformation() {
-
+        System.out.println("WingedHorse won");
     }
 }

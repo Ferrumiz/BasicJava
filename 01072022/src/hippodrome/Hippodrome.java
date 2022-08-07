@@ -1,7 +1,8 @@
-package ippodrome;
+package hippodrome;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class Hippodrome {
     public static void main(String[] args) {
@@ -40,8 +41,11 @@ public class Hippodrome {
         //вывести информацию о победителе winner
         winner.printInformation();
     }
-        private int generateStartPosition ( int size){
-            //Здесь генерируем позицию
-            return 0;
-        }
+
+    private int generateStartPosition(int size) {
+        //Здесь генерируем позицию
+        Random random = new Random();
+        int startPosition = 36 + random.nextInt(0 - (size + 1));
+        return startPosition;
     }
+}

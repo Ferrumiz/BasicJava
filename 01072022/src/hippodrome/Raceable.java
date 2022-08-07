@@ -1,10 +1,10 @@
-package ippodrome;
+package hippodrome;
 
 public interface Raceable {
 
     void setPosition(int position);
 
-    void step();
+    double step();
 
     boolean isFinished(int length);
 

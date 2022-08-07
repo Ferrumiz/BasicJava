@@ -1,6 +1,6 @@
-package ippodrome;
+package hippodrome.dinosaur;
 
-public abstract class Cat {
+public abstract class Dinosaur {
 
     protected double age;
 
@@ -8,7 +8,7 @@ public abstract class Cat {
 
     protected  int startPosition;
 
-    protected int currentPosition;
+    protected double currentPosition;
 
     protected double distanceTraveled;
 }

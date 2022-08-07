@@ -1,14 +1,17 @@
-package ippodrome;
+package hippodrome.horses;
 
-public class Pony extends Horse implements Raceable{
+import hippodrome.Raceable;
+
+public class Pony extends Horse implements Raceable {
     @Override
     public void setPosition(int ponyPosition) {
         startPosition = ponyPosition;
     }
 
     @Override
-    public void step() {
+    public double step() {
 
+        return 0;
     }
 
     @Override
@@ -18,6 +21,6 @@ public class Pony extends Horse implements Raceable{
 
     @Override
     public void printInformation() {
-
+        System.out.println("Pony won");
     }
 }

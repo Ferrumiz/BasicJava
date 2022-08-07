@@ -1,4 +1,4 @@
-package ippodrome;
+package hippodrome.horses;
 
 public abstract class Horse {
 
@@ -8,7 +8,7 @@ public abstract class Horse {
 
     protected  int startPosition;
 
-    protected int currentPosition;
+    protected double currentPosition;
 
     protected double distanceTraveled;
 }
