@@ -6,7 +6,7 @@ public abstract class Cat {
 
     protected double speed;
 
-    protected  int startPosition;
+    protected double startPosition;
 
     protected double currentPosition;
 
