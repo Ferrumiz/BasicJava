@@ -2,7 +2,7 @@ package hippodrome.cat;
 
 import hippodrome.Raceable;
 
-public class Сheetah extends Cat implements Raceable {
+public class Cheetah extends Cat implements Raceable {
 
     @Override
     public void setPosition(int сheetahPosition) {

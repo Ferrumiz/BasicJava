@@ -2,7 +2,7 @@ package hippodrome.cat;
 
 public abstract class Cat {
 
-    protected double age;
+    protected int age;
 
     protected double speed;
 
