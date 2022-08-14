@@ -3,20 +3,29 @@ package hippodrome.dinosaur;
 import hippodrome.Raceable;
 
 public class Spinosaurus extends Dinosaur implements Raceable {
-    @Override
-    public void setPosition(int spinosaurusPosition) {
-        startPosition=spinosaurusPosition;
-    }
+
+    protected int age = 55;
+    protected double speed = 88;
 
     @Override
     public double step() {
+        this.currentPosition = this.startPosition + this.speed - this.age;
+        this.distanceTraveled = this.currentPosition + this.distanceTraveled + this.speed;
+        return this.distanceTraveled;
+    }
 
-        return 0;
+    @Override
+    public void setPosition(int bobcatPosition) {
+        this.startPosition = bobcatPosition;
     }
 
     @Override
     public boolean isFinished(int length) {
-        return false;
+        if (this.distanceTraveled < length) {
+            return false;
+        } else {
+            return true;
+        }
     }
 
     @Override

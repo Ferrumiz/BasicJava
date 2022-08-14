@@ -4,18 +4,19 @@ import hippodrome.Raceable;
 
 public class Bobcat extends Cat implements Raceable {
 
-    @Override
-    public void setPosition(int bobcatPosition) {
-        this.startPosition = bobcatPosition;
-    }
+    protected int age = 5;
+    protected double speed = 35;
 
     @Override
     public double step() {
-        this.age = 5;
-        this.speed = 35;
-        this.currentPosition = this.startPosition + this.speed * this.age / 10;
-        this.distanceTraveled = this.currentPosition + 1;
+        this.currentPosition = this.startPosition + this.speed - this.age;
+        this.distanceTraveled = this.currentPosition + this.distanceTraveled + this.speed;
         return this.distanceTraveled;
+    }
+
+    @Override
+    public void setPosition(int bobcatPosition) {
+        this.startPosition = bobcatPosition;
     }
 
     @Override

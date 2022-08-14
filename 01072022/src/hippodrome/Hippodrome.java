@@ -11,6 +11,7 @@ import java.util.Random;
 public class Hippodrome {
     public static void main(String[] args) {
 
+
         Hippodrome hippodrome = new Hippodrome();
 
         Cat bobcat = new Bobcat();
@@ -53,6 +54,7 @@ public class Hippodrome {
         participants.add(14, (Raceable) wolfSpider);
 
 
+
         for (Raceable participant : participants) {
             int startPosition = hippodrome.generateStartPosition(participants.size());
             participant.setPosition(startPosition); //вычисление рандомного числа
@@ -60,10 +62,12 @@ public class Hippodrome {
 
         int length = 1000;
         Raceable winner = null;
+        int timer = 0;
 
-        while (true) {
+        while (timer < 5000) {
             for (Raceable participant : participants) {
                 participant.step();
+                timer++;
             }
 
             boolean isNeedToStop = false;

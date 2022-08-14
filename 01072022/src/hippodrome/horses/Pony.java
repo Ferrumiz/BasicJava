@@ -3,24 +3,33 @@ package hippodrome.horses;
 import hippodrome.Raceable;
 
 public class Pony extends Horse implements Raceable {
-    @Override
-    public void setPosition(int ponyPosition) {
-        startPosition = ponyPosition;
-    }
+
+    protected int age = 5;
+    protected double speed = 90;
 
     @Override
     public double step() {
+        this.currentPosition = this.startPosition + this.speed - this.age;
+        this.distanceTraveled = this.currentPosition + this.distanceTraveled + this.speed;
+        return this.distanceTraveled;
+    }
 
-        return 0;
+    @Override
+    public void setPosition(int bobcatPosition) {
+        this.startPosition = bobcatPosition;
     }
 
     @Override
     public boolean isFinished(int length) {
-        return false;
+        if (this.distanceTraveled < length) {
+            return false;
+        } else {
+            return true;
+        }
     }
 
     @Override
     public void printInformation() {
-        System.out.println("Pony won");
+        System.out.println("Horse won");
     }
 }
