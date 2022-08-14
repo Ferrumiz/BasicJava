@@ -4,20 +4,28 @@ import hippodrome.Raceable;
 
 public class Cheetah extends Cat implements Raceable {
 
+    protected int age = 2;
+    protected double speed = 95;
+
+    @Override
+    public double step() {
+        this.currentPosition = this.startPosition + this.speed - this.age;
+        this.distanceTraveled = this.currentPosition + this.distanceTraveled + this.speed;
+        return this.distanceTraveled;
+    }
+
     @Override
     public void setPosition(int сheetahPosition) {
         startPosition = сheetahPosition;
     }
 
     @Override
-    public double step() {
-
-        return 0;
-    }
-
-    @Override
     public boolean isFinished(int length) {
-        return false;
+        if (this.distanceTraveled < length) {
+            return false;
+        } else {
+            return true;
+        }
     }
 
     @Override
