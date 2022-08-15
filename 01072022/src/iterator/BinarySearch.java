@@ -15,11 +15,13 @@ public class BinarySearch {
         //9, 13  l=7, r=8
         //9 l=7, r=7
 
-        int target = 1;
+        int target = 13;
         BinarySearch binarySearch = new BinarySearch();
         int i = binarySearch.binarySearch(list, target);
         System.out.println("index = " + i);
     }
+
+
 
     private int binarySearch(List<Integer> list, int target) {
         int count = 0;

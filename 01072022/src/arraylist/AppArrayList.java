@@ -9,7 +9,7 @@ public class AppArrayList {
     public static void main(String[] args) {
 
         ArrayList<Integer> list1 = new ArrayList<>(Arrays.asList(1, 3, 4, 6, 7, 9, 11));
-        ArrayList<Integer> list2 = new ArrayList<>(Arrays.asList(-4, -2, 2, 5, 7, 5, 11, 14, 16));
+        ArrayList<Integer> list2 = new ArrayList<>(Arrays.asList(-4, -2, 2, 5, 7, 8, 11, 14, 16));
 
         List<Integer> result = new ArrayList<>();
 
