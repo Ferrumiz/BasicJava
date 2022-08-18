@@ -20,8 +20,10 @@ public class MyLinkedList {
     }
 
     private void linkFirstElement(MyNode e) {
+
         final MyNode f = firstMy;
         final MyNode newMyNode = new MyNode(e, f);
+
         firstMy = newMyNode;
             e.thisElement = newMyNode; //Тут возникла проблема с приведением типов. Не понимаю как решить.
             sizeOfMyLinkedList++;
@@ -29,9 +31,11 @@ public class MyLinkedList {
 
 
     private void linkLastElement(MyNode e) {
+
         final MyNode l = nextMy;
         final MyNode newMyNode = new MyNode(e, null);
         nextMy = newMyNode;
+
         if (e == null) {
             firstMy = newMyNode;
         } else {
