@@ -1,6 +1,9 @@
 package linkedlist;
 
-import java.util.LinkedList;
+//First level: Написать свой класс LinkedList, только в отличие от штатной реализации, сделать его как Single Linked List,
+//где каждый текущий элемент имеет ссылку только на следующий.
+//Задать 5 элементов этого списка.
+
 
 public class MyLinkedList {
 
@@ -10,7 +13,7 @@ public class MyLinkedList {
 
     public static void main(String[] args) {
 
-        System.out.println(linkFirstElement( 2));
+        System.out.println(linkFirstElement(2)); //Тут возникла проблема с приведением типов. Не понимаю как решить.
     }
 
     public MyLinkedList() {
@@ -32,8 +35,8 @@ public class MyLinkedList {
         nextMy = newMyNode;
         if (e == null) {
             firstMy = newMyNode;
-        }else{
-                l.nextElement = newMyNode;
+        } else {
+            l.nextElement = newMyNode;
             sizeOfMyLinkedList++;
         }
     }
