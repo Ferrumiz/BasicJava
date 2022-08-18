@@ -13,7 +13,7 @@ public class MyLinkedList {
 
     public static void main(String[] args) {
 
-        System.out.println(linkFirstElement(2)); //Тут возникла проблема с приведением типов. Не понимаю как решить.
+        System.out.println(linkFirstElement(2));
     }
 
     public MyLinkedList() {
@@ -23,11 +23,10 @@ public class MyLinkedList {
         final MyNode f = firstMy;
         final MyNode newMyNode = new MyNode(e, f);
         firstMy = newMyNode;
-        if (e == null) {
-            e.thisElement = newMyNode;
+            e.thisElement = newMyNode; //Тут возникла проблема с приведением типов. Не понимаю как решить.
             sizeOfMyLinkedList++;
         }
-    }
+
 
     private void linkLastElement(MyNode e) {
         final MyNode l = nextMy;
@@ -44,10 +43,10 @@ public class MyLinkedList {
 
     class MyNode {
 
-        MyNode thisElement;
+        int thisElement;
         MyNode nextElement;
 
-        public MyNode(MyNode firstElement, MyNode nextElement) {
+        public MyNode(int firstElement, MyNode nextElement) {
             this.thisElement = firstElement;
             this.nextElement = nextElement;
         }
