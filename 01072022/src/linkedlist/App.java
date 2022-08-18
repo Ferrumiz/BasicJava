@@ -10,6 +10,7 @@ public class App {
         LinkedList<String> stringLinkedList = new LinkedList<>();
 
         linkedList.add(1);
+        linkedList.add(2);
 
     }
 }
