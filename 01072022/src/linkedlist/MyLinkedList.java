@@ -13,7 +13,7 @@ public class MyLinkedList {
 
     public static void main(String[] args) {
 
-        System.out.println(linkFirstElement(2));
+       // System.out.println(linkFirstElement(2));
     }
 
     public MyLinkedList() {
