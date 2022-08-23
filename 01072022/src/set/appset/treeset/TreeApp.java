@@ -15,14 +15,6 @@ public class TreeApp {
         treeApp.putBookToBox(new Book[]{bookOne, bookTwo, bookThree, bookFour}, catalog);
     }
 
-    private static void initCatalog(Set<Box> catalog) {
-        for (int i = 0; i < 26; i++) {
-            char letter = (char) (i + 'a');
-            Box tempBox = new Box(letter);
-            catalog.add(tempBox);
-        }
-    }
-
     private void putBookToBox(Book[] books, TreeSet<Box> catalog) {
         for (Book book : books) {
             char alphabetIndex = book.getAlphabetIndex();

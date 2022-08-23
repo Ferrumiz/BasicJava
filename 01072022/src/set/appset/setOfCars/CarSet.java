@@ -26,7 +26,7 @@ public class CarSet {
             Car car = iterator.next();
             System.out.println(car);
         }
-
+        
     }
 
     private Set<Car> getUniqueCars(List<Car> carList) {
