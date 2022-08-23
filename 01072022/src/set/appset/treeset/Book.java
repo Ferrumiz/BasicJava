@@ -1,11 +1,13 @@
-package set.treeset;
+package set.appset.treeset;
 
-import java.util.Locale;
+import java.util.Set;
 
 public class Book {
 
     private String name;
+
     private String author;
+
     private int pagesCount;
 
     public Book(String name, String author, int pagesCount) {
@@ -14,7 +16,7 @@ public class Book {
         this.pagesCount = pagesCount;
     }
 
-    public char getAlphabetIndex(){
+    public char getAlphabetIndex() {
         return name.toLowerCase().charAt(0);
     }
 }

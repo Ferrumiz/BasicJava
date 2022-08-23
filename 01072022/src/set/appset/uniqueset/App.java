@@ -19,20 +19,17 @@ public class App {
 
     private int getMaximumSubstringLength(String str) {
         Set<Character> set = new HashSet<>();
-        int max = 0;
-        int start = 0;
-        for (int j = 0; j < str.length(); j++) {
-            for (int i = j; i < str.length(); i++) {
-                char tmp = str.charAt(i);
-                while (set.contains(tmp)) {
-                    set.remove(str.charAt(start));
-                    start++;
-                }
-                set.add(tmp);
-                max = Math.max(max, set.size());
-
+        int max = 0; // переменная для максимального количества неповторяющихся символов
+        int start = 0; // переменная селектора начала отсчета нашей буквы
+        for (int j = 0; j < str.length(); j++) { // общий цикл для проходки по слову
+            char tmp = str.charAt(j); // выбираем букву на текущей позиции
+            while (set.contains(tmp)) { // в случае, если сет содержит выбранную нами букву
+                set.remove(str.charAt(start)); // удаляем из сета выбранную нами букву
+                start++; // переносим селектор начала отсчета нашей буквы
             }
-            set.clear();
+            set.add(tmp); // в случае, если сет не содержит нашей буквы, добавляем нашу букву в переменную tmp
+            max = Math.max(max, set.size()); // записываем в переменную max максимальное количество неповторяющихся символов, если оно больше количества элементов сета.
+
         }
         return max;
     }

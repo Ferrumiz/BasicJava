@@ -10,6 +10,8 @@ public class AppSet {
         Course courseThree = new Course("Algo", 10, "Author One");
         Course courseFour = new Course("DataBase", 20, "Author Three");
 
+        System.out.println(courseOne == courseThree);
+
         List<Course> courses = new ArrayList<>(Arrays.asList(courseOne, courseTwo, courseThree, courseFour));
 
         AppSet appSet = new AppSet();
@@ -20,9 +22,9 @@ public class AppSet {
             System.out.println(course);
         }
 
-        System.out.println("Set contains courseFour    - "+ uniqueCourses.contains(courseFour));
+        System.out.println("Set contains courseFour    - " + uniqueCourses.contains(courseFour));
         courseFour.setDuration(15);
-        System.out.println("Set contains courseFour    - "+ uniqueCourses.contains(courseFour));
+        System.out.println("Set contains courseFour    - " + uniqueCourses.contains(courseFour));
 
     }
 
@@ -31,7 +33,6 @@ public class AppSet {
         for (Course course : courseList) {
             courseSet.add(course);
         }
-
         return courseSet;
     }
 

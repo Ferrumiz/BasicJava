@@ -1,10 +1,12 @@
-package set.treeset;
+package set.appset.treeset;
+
+import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class Box {
+public class Box implements Comparable {
 
     private char letter;
 
@@ -15,26 +17,31 @@ public class Box {
         this.books = new ArrayList<>();
     }
 
+
+    public void putBook(Book book) {
+        books.add(book);
+    }
+
+
+    public char getLetter() {
+        return letter;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Box box = (Box) o;
-        return letter == box.letter && Objects.equals(books, box.books);
+        return letter == box.letter;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(letter, books);
+        return Objects.hash(letter);
     }
 
-    public int compareTo(Object o)
-
-    public void putBook(Book book){
-
-   }
-
-    public char getLetter() {
-        return letter;
+    @Override
+    public int compareTo(@NotNull Object o) {
+         return  this.letter-((Box)o).letter;
     }
 }
