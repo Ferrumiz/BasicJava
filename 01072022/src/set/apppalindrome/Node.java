@@ -1,6 +1,4 @@
-package set;
-
-import linkedlist.MyNode;
+package set.apppalindrome;
 
 public class Node {
     String value;

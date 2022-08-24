@@ -1,6 +1,4 @@
-package set;
-
-import linkedlist.MyNode;
+package set.apppalindrome;
 
 import java.util.HashSet;
 import java.util.Set;
