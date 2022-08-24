@@ -1,5 +1,7 @@
 package set;
 
+import linkedlist.MyNode;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -7,17 +9,27 @@ import java.util.Set;
 // в задаче работы с сетом при решении задачи с палиндромом.
 
 public class AppPalindrome {
+
+    private Node firstNode;
+
     public static void main(String[] args) {
-
-        String stringOne = "aac";       //aca
-        String stringTwo = "code";      //невозможно сделать палиндром
-        String stringThree = "abab";    //abba
-
         AppPalindrome appPalindrome = new AppPalindrome();
+        Node stringThree = new Node("abab", null);
+        Node stringTwo = new Node("code", stringThree);
+        Node stringOne = new Node("aac", stringTwo);       //aca
 
-        System.out.println("Is palindrome : " + stringOne + " " + appPalindrome.isPalindrome(stringOne));
-        System.out.println("Is palindrome : " + stringTwo + " " + appPalindrome.isPalindrome(stringTwo));
-        System.out.println("Is palindrome : " + stringThree + " " + appPalindrome.isPalindrome(stringThree));
+        appPalindrome.firstNode = stringOne;
+        Node curr = appPalindrome.firstNode;
+
+        while (curr != null) {
+            if (appPalindrome.isPalindrome(curr.value)) {
+                System.out.println("String " + "«" + curr.value + "»" + " is palindrome");
+            } else {
+                System.out.println("String " + "«" + curr.value + "»" + " is not a palindrome");
+
+            }
+            curr = curr.nextElement;
+        }
     }
 
     private boolean isPalindrome(String string) {
