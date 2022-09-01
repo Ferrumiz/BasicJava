@@ -1,6 +1,8 @@
 package hippodrome.spider;
 
-public abstract class Spider {
+import hippodrome.Raceable;
+
+public abstract class Spider implements Raceable {
 
     protected double age;
 
@@ -11,4 +13,21 @@ public abstract class Spider {
     protected double currentPosition;
 
     protected double distanceTraveled;
+
+    public Spider(double age, double speed) {
+        this.age = age;
+        this.speed = speed;
+    }
+
+    @Override
+    public boolean isFinished(int length) {
+        return !(this.distanceTraveled < length);
+    }
+
+    @Override
+    public double step() {
+        currentPosition = startPosition + speed - age;
+        distanceTraveled = currentPosition + distanceTraveled + this.speed;
+        return this.distanceTraveled;
+    }
 }

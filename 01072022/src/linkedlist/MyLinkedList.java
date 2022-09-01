@@ -5,7 +5,7 @@ package linkedlist;
 //Задать 5 элементов этого списка.
 
 
-public class MyLinkedList {
+public class MyLinkedList<E> {
     //Лучше переменную назвать firstNode
     private MyNode firstMy;
 

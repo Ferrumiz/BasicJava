@@ -1,11 +1,12 @@
 package hippodrome.dinosaur;
 
-import hippodrome.Raceable;
 
-public class Triceratops extends Dinosaur implements Raceable {
 
-    protected int age = 120;
-    protected double speed = 100;
+public class Triceratops extends Dinosaur  {
+
+    public Triceratops(int age, double speed) {
+        super(age, speed);
+    }
 
     @Override
     public double step() {
@@ -17,15 +18,6 @@ public class Triceratops extends Dinosaur implements Raceable {
     @Override
     public void setPosition(int bobcatPosition) {
         this.startPosition = bobcatPosition;
-    }
-
-    @Override
-    public boolean isFinished(int length) {
-        if (this.distanceTraveled < length) {
-            return false;
-        } else {
-            return true;
-        }
     }
 
     @Override

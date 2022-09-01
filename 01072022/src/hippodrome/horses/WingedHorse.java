@@ -1,11 +1,12 @@
 package hippodrome.horses;
 
-import hippodrome.Raceable;
 
-public class WingedHorse extends Horse implements Raceable {
+public class WingedHorse extends Horse {
 
-    protected int age = 17;
-    protected double speed = 245;
+    public WingedHorse(int age, double speed) {
+        super(age, speed);
+    }
+
 
     @Override
     public double step() {
@@ -19,14 +20,6 @@ public class WingedHorse extends Horse implements Raceable {
         this.startPosition = bobcatPosition;
     }
 
-    @Override
-    public boolean isFinished(int length) {
-        if (this.distanceTraveled < length) {
-            return false;
-        } else {
-            return true;
-        }
-    }
 
     @Override
     public void printInformation() {

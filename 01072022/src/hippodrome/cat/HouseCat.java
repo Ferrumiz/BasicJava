@@ -1,32 +1,18 @@
 package hippodrome.cat;
 
-import hippodrome.Raceable;
 
-public class HouseCat extends Cat implements Raceable {
+public class HouseCat extends Cat {
 
-    protected int age = 2;
-    protected double speed = 15;
-
-    @Override
-    public double step() {
-        this.currentPosition = this.startPosition + this.speed - this.age;
-        this.distanceTraveled = this.currentPosition + this.distanceTraveled + this.speed;
-        return this.distanceTraveled;
+    public HouseCat(int age, double speed) {
+        super(age, speed);
     }
+
 
     @Override
     public void setPosition(int bobcatPosition) {
         this.startPosition = bobcatPosition;
     }
 
-    @Override
-    public boolean isFinished(int length) {
-        if (this.distanceTraveled < length) {
-            return false;
-        } else {
-            return true;
-        }
-    }
 
     @Override
     public void printInformation() {

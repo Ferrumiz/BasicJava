@@ -1,17 +1,10 @@
 package hippodrome.cat;
 
-import hippodrome.Raceable;
 
-public class Puma extends Cat implements Raceable {
+public class Puma extends Cat {
 
-    protected int age = 13;
-    protected double speed = 60;
-
-    @Override
-    public double step() {
-        this.currentPosition = this.startPosition + this.speed - this.age;
-        this.distanceTraveled = this.currentPosition + this.distanceTraveled + this.speed;
-        return this.distanceTraveled;
+    public Puma(int age, double speed) {
+        super(age, speed);
     }
 
     @Override
@@ -19,14 +12,6 @@ public class Puma extends Cat implements Raceable {
         this.startPosition = bobcatPosition;
     }
 
-    @Override
-    public boolean isFinished(int length) {
-        if (this.distanceTraveled < length) {
-            return false;
-        } else {
-            return true;
-        }
-    }
 
     @Override
     public void printInformation() {

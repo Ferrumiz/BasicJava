@@ -1,17 +1,11 @@
 package hippodrome.spider;
 
-import hippodrome.Raceable;
 
-public class HouseSpider extends Spider implements Raceable {
 
-    protected int age = 3;
-    protected double speed = 11;
+public class HouseSpider extends Spider {
 
-    @Override
-    public double step() {
-        this.currentPosition = this.startPosition + this.speed - this.age;
-        this.distanceTraveled = this.currentPosition + this.distanceTraveled + this.speed;
-        return this.distanceTraveled;
+    public HouseSpider(int age, double speed) {
+        super(age, speed);
     }
 
     @Override
@@ -19,14 +13,6 @@ public class HouseSpider extends Spider implements Raceable {
         this.startPosition = bobcatPosition;
     }
 
-    @Override
-    public boolean isFinished(int length) {
-        if (this.distanceTraveled < length) {
-            return false;
-        } else {
-            return true;
-        }
-    }
 
     @Override
     public void printInformation() {
