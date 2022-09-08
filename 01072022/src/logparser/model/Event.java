@@ -1,11 +1,9 @@
 package logparser.model;
 
-import java.util.Date;
-
 public class Event {
 
     private String source;
-    private Date date;
+    private String date;
     private String destination;
     private Action action;
     private ActionState state;
@@ -18,11 +16,11 @@ public class Event {
         this.source = source;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 

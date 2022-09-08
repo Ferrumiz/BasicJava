@@ -1,7 +1,12 @@
 package logparser.service;
 
+import logparser.model.Action;
+import logparser.model.ActionState;
 import logparser.model.Event;
+import logparser.model.User;
 
+import java.util.Arrays;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -22,23 +27,31 @@ public class LogServiceImpl implements LogService {
         String userName = "UserOne";
         //User userByName = userService.getUserByName(userName);
 
-        HashMap<String, HashMap<String, HashMap<String, String>>> userMap = new HashMap<>();
-        HashMap<String, HashMap<String, String>> dateMap = new HashMap<>();
-        HashMap<String, String> actionMap = new HashMap<>();
+        HashMap<Event, HashMap<Event, Event>> dateMap = new HashMap<>();
+        HashMap<Event, Event> actionMap = new HashMap<>();
 
         while (sc.hasNextLine()) {
             String logString = sc.nextLine();
             String[] logArray = logString.split(" ");
-            String source = logArray[0];
-            String name = logArray[1];
-            String date = logArray[2];
-            String destination = logArray[3];
-            String action = logArray[4];
-            String actionSource = logArray[5];
 
-            userMap.put(name, dateMap);
-            dateMap.put(date, actionMap);
-            actionMap.put(action, null);
+
+
+            //System.out.println(Arrays.toString(logArray));
+
+            Event event = new Event();
+            event.setSource(logArray[0]);
+            event.setDate(logArray[2]);
+            event.setDestination(logArray[3]);
+            event.setAction(Action.valueOf(logArray[4]));
+            event.setState(ActionState.valueOf(logArray[5]));
+
+
+
+
+            //System.out.println(event.getSource());
+            //userMap.put(new User(logArray[1]), dateMap);
+            //dateMap.put(Event.getDate(), actionMap);
+            //actionMap.put(action, null);
         }
 
     }

@@ -35,11 +35,11 @@ public class ParserApp {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        File LogList = new File("F:\\Работа с Миськовым С.Д\\TelRan\\Homework\\BasicJava\\01072022\\src\\logparser\\LogList");
+        File logList = new File("F:\\Работа с Миськовым С.Д\\TelRan\\Homework\\BasicJava\\01072022\\src\\logparser\\LogList");
 
-        UserService userService = new UserServiceImpl();
+        UserService userService = new UserServiceImpl(new Scanner(logList));
         LogService logService = new LogServiceImpl(userService);
-        logService.prepareStructure(new Scanner(LogList));
+        logService.prepareStructure(new Scanner(logList));
 
     }
 
