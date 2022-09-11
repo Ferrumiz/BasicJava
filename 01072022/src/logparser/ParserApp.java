@@ -29,10 +29,7 @@ import logparser.service.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 
-import java.util.Date;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class ParserApp {
 
@@ -45,6 +42,7 @@ public class ParserApp {
         LogService logService = new LogServiceImpl(userService, eventService);
         logService.prepareStructure(new Scanner(logList));
         Map<User, Map<String, List<Event>>> userMapMap = logService.prepareStructure(new Scanner(logList));
+        LogComparator logComparator = new LogComparator();
 
 //        List<String> eventListForUser;
 //        User currentUser;

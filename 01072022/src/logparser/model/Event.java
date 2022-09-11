@@ -47,4 +47,13 @@ public class Event {
     public void setState(ActionState state) {
         this.state = state;
     }
+
+    @Override
+    public String toString() {
+        return "Event{" +
+                "source='" + source + '\'' +
+                ", action=" + action +
+                ", state=" + state +
+                '}';
+    }
 }

@@ -18,7 +18,7 @@ public class ExampleComparator {
         Log yahoo3 = new Log("zamazon", 3);
 
 
-        Log[] logs = {google, google1, google2, google3, yahoo, yahoo1, yahoo2};
+        Log[] logs = {google, google1, google2, google3, yahoo, yahoo1, yahoo2, yahoo3};
 
         Comparator<Log> logComparator = new Comparator<Log>() {
             @Override
