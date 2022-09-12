@@ -45,14 +45,13 @@ public class LogComparator {
         }
     };
 
-
     private Map<Event, List<Event>> compareBySource(Event[] events, Comparator comparator) {
         Map<Event, List<Event>> map = new HashMap<>();
         for (Event event : events) {
             List<Event> eventList = new ArrayList<>();
-            eventList.add(events);
-            eventList.sort(sourceComparator.reversed());
-            map.put(event, (List<Event>) eventList);
+            eventList.add(event);
+            eventList.sort(comparator.reversed());
+            map.put(event, eventList);
         }
         return map;
     }
