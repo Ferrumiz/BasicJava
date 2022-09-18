@@ -8,6 +8,13 @@ public class Event {
     private Action action;
     private ActionState state;
 
+    public Event() {
+    }
+
+    public Event(String source) {
+        this.source = source;
+    }
+
     public String getSource() {
         return source;
     }
