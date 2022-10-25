@@ -67,9 +67,14 @@ public class Hippodrome {
         //По факту к
         boolean isNeedToStop = false;
         while (!isNeedToStop) {
+
             for ( Raceable participant : participants ) {
                 participant.step();
             }
+
+            participants.forEach(participant ->{
+                participant.step();
+            });
 
             for ( Raceable participant : participants ) {
                 if (participant.isFinished(length)) {
