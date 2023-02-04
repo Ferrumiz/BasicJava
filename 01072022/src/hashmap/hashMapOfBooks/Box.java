@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class Box implements Comparable {
+public class Box implements  Comparable{
 
     private char letter;
 
@@ -38,7 +38,7 @@ public class Box implements Comparable {
 
     @Override
     public int compareTo(@NotNull Object o) {
-        return this.letter - ((Box) o).letter;
+        return  this.letter-((Box)o).letter;
     }
 }
 

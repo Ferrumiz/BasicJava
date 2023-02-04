@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e7100f24-32aa-4aee-a844-2b488a41337c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../01072022/src/Algorithms/BinaryTree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01072022/src/comparatorjavarush/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01072022/src/hippodromethread/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01072022/src/hippodromethread/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01072022/src/hippodromethread/Hippodrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01072022/src/hippodromethread/Horse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01072022/src/hippodromethread/Participant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01072022/src/hippodromethread/Pony.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01072022/src/hippodromethread/Puma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01072022/src/hippodromethread/Raceable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01072022/src/mth/collection/CollectionApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01072022/src/mth/collection/CollectionThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01072022/src/mth/collection/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01072022/src/oop/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01072022/src/oop/SolidApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01072022/src/reflection/ReflectionApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01072022/src/reflection/SpecialBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01072022/src/reflection/TechnicalBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../autoparking/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../autoparking/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../autoparking/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../autoparking/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../autoparking/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../autoparking/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../autoparking/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../autoparking/src/main/java/org/telran/parkingproject/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../autoparking/src/main/java/org/telran/parkingproject/controller/CarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../autoparking/src/main/java/org/telran/parkingproject/dao/CarRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../autoparking/src/main/java/org/telran/parkingproject/dao/CarRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../autoparking/src/main/java/org/telran/parkingproject/model/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../autoparking/src/main/java/org/telran/parkingproject/service/CarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../autoparking/src/main/java/org/telran/parkingproject/service/CarServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/src/main/java/org/telran/bookshop/com/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/src/main/java/org/telran/bookshop/com/configuration/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/src/main/java/org/telran/bookshop/com/controller/AppController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/src/main/java/org/telran/bookshop/com/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/src/main/java/org/telran/bookshop/com/model/PaymentOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/src/main/java/org/telran/bookshop/com/service/CardPaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/src/main/java/org/telran/bookshop/com/service/CashPaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/src/main/java/org/telran/bookshop/com/service/CreditPaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/src/main/java/org/telran/bookshop/com/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-prof/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-prof/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-prof/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-prof/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-prof/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-prof/java-prof.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-prof/src/classwork5/ArrayByFormula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-prof/src/classwork5/ArraysWithNaturalNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-prof/src/classwork5/MaxElementOfSecondaryDiagonal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../telegrambot/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../telegrambot/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../telegrambot/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../telegrambot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../telegrambot/telegrambot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../telranmavenproject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../telranmavenproject/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../telranmavenproject/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../telranmavenproject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../telranmavenproject/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../telranmavenproject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../telranmavenproject/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../telranmavenproject/src/main/java/org/telran/myproject/BookUploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../telranmavenproject/src/main/java/org/telran/myproject/MavenProjectApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../telranmavenproject/src/test/java/org/telran/myproject/BookUploadServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/telran/spring/project/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/telran/spring/project/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/telran/spring/project/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/telran/spring/project/lessonone/configuration/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/telran/spring/project/lessonone/configuration/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/telran/spring/project/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/telran/spring/project/model/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/telran/spring/project/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/telran/spring/project/service/BookStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/telran/spring/project/service/BookStorageImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../еудкфтызкштпзкщоусе/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../еудкфтызкштпзкщоусе/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../еудкфтызкштпзкщоусе/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../еудкфтызкштпзкщоусе/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../еудкфтызкштпзкщоусе/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../еудкфтызкштпзкщоусе/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/out/production/TelRanJavaBasic/hippodrome/Hippodrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/out/production/TelRanJavaBasic/hippodrome/Raceable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/out/production/TelRanJavaBasic/hippodrome/cat/Bobcat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/out/production/TelRanJavaBasic/hippodrome/cat/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/out/production/TelRanJavaBasic/hippodrome/cat/Cheetah.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/out/production/TelRanJavaBasic/hippodrome/cat/HouseCat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/out/production/TelRanJavaBasic/hippodrome/cat/Puma.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/out/production/TelRanJavaBasic/hippodrome/dinosaur/Dinosaur.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/out/production/TelRanJavaBasic/hippodrome/dinosaur/Spinosaurus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/out/production/TelRanJavaBasic/hippodrome/dinosaur/Stegosaurus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/out/production/TelRanJavaBasic/hippodrome/dinosaur/Triceratops.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/out/production/TelRanJavaBasic/hippodrome/dinosaur/Tyrannosaurus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/out/production/TelRanJavaBasic/hippodrome/horses/HeavyHorse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/out/production/TelRanJavaBasic/hippodrome/horses/Horse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/out/production/TelRanJavaBasic/hippodrome/horses/Pony.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/out/production/TelRanJavaBasic/hippodrome/horses/RaceHorse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/out/production/TelRanJavaBasic/hippodrome/horses/WingedHorse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/out/production/TelRanJavaBasic/hippodrome/spider/BirdEater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/out/production/TelRanJavaBasic/hippodrome/spider/HouseSpider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/out/production/TelRanJavaBasic/hippodrome/spider/HuntsmanSpider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/out/production/TelRanJavaBasic/hippodrome/spider/Spider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/out/production/TelRanJavaBasic/hippodrome/spider/WolfSpider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/out/production/TelRanJavaBasic/hippodrome/Правки_по_ипподрому.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/NameHomework/CounterForJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01072022/src/NameHomework/CounterForJack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hashmap/hashMapOfBooks/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01072022/src/hashmap/hashMapOfBooks/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/Hippodrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/HippodromeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/Raceable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/cat/Bobcat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/cat/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/cat/Cheetah.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/cat/HouseCat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/cat/Puma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/dinosaur/Dinosaur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/dinosaur/Spinosaurus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/dinosaur/Stegosaurus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/dinosaur/Triceratops.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/dinosaur/Tyrannosaurus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/horses/HeavyHorse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/horses/Horse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/horses/Pony.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/horses/RaceHorse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/horses/WingedHorse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/spider/BirdEater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/spider/HouseSpider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/spider/HuntsmanSpider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/spider/Spider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/spider/WolfSpider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01072022/src/hippodrome/Правки_по_ипподрому.patch" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IBfFqJ1aDdGoiHAmUq7r67xYdF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.telran.spring.project.App" />
+      <module name="telranspringproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.telran.spring.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.telran.spring.project.service.App" />
+      <module name="telranspringproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.telran.spring.project.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7100f24-32aa-4aee-a844-2b488a41337c" name="Changes" comment="" />
+      <created>1669659798199</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669659798199</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/telran/spring/project/model/Book.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
