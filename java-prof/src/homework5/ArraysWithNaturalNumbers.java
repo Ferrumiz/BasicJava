@@ -1,19 +1,14 @@
-package classwork5;
+package homework5;
 
-//С помощью двумерных массивов напечатайте на консоль следующую фигуру (массив 8 на 8)
-//- подсказка подумайте над четностью номера колонки и строки
+//Объявить двумерный массив, заполнить целыми числами и показать на экран.
 
-public class ArrayFigure {
+public class ArraysWithNaturalNumbers {
     public static void main(String[] args) {
         int[][] arr1 = new int[10][10];
 
         for (int i = 0; i < arr1.length; i++) {
             for (int j = 0; j < arr1[i].length; j++) {
-                if ((i + j) % 2 == 0){
-                    arr1[i][j] = 0;
-                }else {
-                    arr1[i][j] = 1;
-                }
+                arr1[i][j] = i*j;
             }
         }
         printArray(arr1);

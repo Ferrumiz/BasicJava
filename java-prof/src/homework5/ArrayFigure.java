@@ -1,15 +1,19 @@
-package classwork5;
+package homework5;
 
-//Создать двумерный массив.
-// Заполнить его элементами, каждый из которых вычисляется по формуле: a[i,j] =7*i-3*j. Вывести массив на экран.
+//С помощью двумерных массивов напечатайте на консоль следующую фигуру (массив 8 на 8)
+//- подсказка подумайте над четностью номера колонки и строки
 
-public class ArrayByFormula {
+public class ArrayFigure {
     public static void main(String[] args) {
         int[][] arr1 = new int[10][10];
 
         for (int i = 0; i < arr1.length; i++) {
             for (int j = 0; j < arr1[i].length; j++) {
-                arr1[i][j] = 7*i-3*j;
+                if ((i + j) % 2 == 0){
+                    arr1[i][j] = 0;
+                }else {
+                    arr1[i][j] = 1;
+                }
             }
         }
         printArray(arr1);
