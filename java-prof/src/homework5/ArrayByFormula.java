@@ -23,4 +23,6 @@ public class ArrayByFormula {
             System.out.println();
         }
     }
+
+
 }
